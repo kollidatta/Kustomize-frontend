@@ -8,7 +8,7 @@ images:
 - name: coitlearning/coit-frontend
   newTag: latest
 
-namePrefix: Frontend-
+namePrefix: frontend-
 nameSuffix: -development
 
 commonLabels:
