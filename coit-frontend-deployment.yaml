@@ -21,7 +21,7 @@ spec:
         app: coit-frontend                                  # 6
     spec:
       containers:
-        - image: coitlearning/coit-frontend:${BUILD_NUMBER}
+        - image: coitlearning/coit-frontend:1.0.0
           imagePullPolicy: IfNotPresent                         # 7
           name: coit-frontend
           ports:
