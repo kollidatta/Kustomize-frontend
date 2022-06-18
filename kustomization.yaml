@@ -5,7 +5,7 @@ resources:
   - ./service-coit-frontend-lb.yaml
 images:
   - name: coitlearning/coit-frontend
-    newTag: TAG
+    newTag: 2.0.0
 namePrefix: frontend-
 nameSuffix: -development
 commonLabels:
