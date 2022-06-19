@@ -4,7 +4,7 @@ resources:
   - ./coit-frontend-deployment.yaml
   - ./service-coit-frontend-lb.yaml
 images:
-  - name: coitlearning/coit-frontend
+  - name: kollidatta/frontend
     newTag: 4.0.0
 namePrefix: frontend-
 nameSuffix: -development
